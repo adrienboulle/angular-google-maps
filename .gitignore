@@ -1,5 +1,5 @@
 node_modules/
-dist
+#dist
 docs_generated
 src/**/*.js
 src/**/*.map
