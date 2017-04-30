@@ -1,12 +1,10 @@
 {
     "compilerOptions": {
-        "module": "es2015",
+        "module": "commonjs",
         "target": "es5",
         "noImplicitAny": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
-        "outDir": ".tmp/esm",
-        "rootDir": ".",
         "sourceMap": true,
         "removeComments": false,
         "moduleResolution": "node",
@@ -20,11 +18,11 @@
         ]
     },
     "angularCompilerOptions": {
-        "genDir": ".tmp",
+        "genDir": ".",
         "debug": false,
         "skipMetadataEmit": false
     },
     "include": [
-        "src/**/*"
+        ".tmp/**/*"
     ]
 }
